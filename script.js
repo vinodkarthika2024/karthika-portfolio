@@ -5,13 +5,13 @@ const cases = {
     link: "https://www.instagram.com/reel/DXa-N_Osu9W/",
     html: `
       <h4>Context</h4>
-      <p>Cambridge Spark was the Official AI Education Partner of HYROX Cardiff. The campaign used the theme “Ambition Amplified” to connect the partnership across pre-event promotion and the live event.</p>
-      <h4>What I worked on</h4>
-      <p>My work covered social content, email communications, web content, campaign messaging, event-related promotion and live content. I also created a 30-second promotional ad in Canva as part of the campaign activity.</p>
-      <h4>Activation change</h4>
-      <p>The original app-based activation was dropped because of HYROX data-security concerns. The team moved to a form-based prize draw for a HYROX PUMA bag, which meant the campaign messaging and supporting communications had to be adapted.</p>
-      <h4>Why it belongs in my portfolio</h4>
-      <p>This project shows the campaign side of my role: coordinating content across several channels, supporting a major external partnership and adapting the marketing execution when the activation changed.</p>
+      <p>Cambridge Spark was the Official AI Education Partner of HYROX Cardiff. The campaign used the theme “Ambition Amplified” across pre-event promotion and the live activation.</p>
+      <h4>My role</h4>
+      <p>I supported the partnership campaign across the marketing channels around the event.</p>
+      <h4>What I did</h4>
+      <p>My work included social content, email communications, web content, campaign messaging, event-related promotion and live content. I also created a 30-second promotional ad in Canva. When the original app-based activation was dropped because of HYROX data-security concerns, the campaign was adapted around a form-based prize draw for a HYROX PUMA bag.</p>
+      <h4>Output</h4>
+      <p>An integrated partnership campaign spanning social, email, web, event content, a promotional ad and the revised prize-draw activation.</p>
     `
   },
   lloyds: {
@@ -20,13 +20,13 @@ const cases = {
     link: "https://www.linkedin.com/feed/update/urn:li:activity:7503075542955511808",
     html: `
       <h4>Context</h4>
-      <p>The project was a customer story featuring Lloyds Banking Group and Cambridge Spark’s work together.</p>
+      <p>A customer story featuring Lloyds Banking Group and Cambridge Spark’s work together.</p>
       <h4>My role</h4>
-      <p>I developed the concept and storyline before filming, including the narrative direction and the parts of the customer story we wanted the video to bring out.</p>
-      <h4>Production</h4>
-      <p>An external agency handled filming and technical editing. I worked with them on the content direction and reviewed the footage and edits, specifying which sections to keep, what to remove and how the final story should flow.</p>
-      <h4>Deliverables</h4>
-      <p>The content was developed as a main customer film with additional shorter edits for social use.</p>
+      <p>I developed the concept, storyline and editorial direction for the video.</p>
+      <h4>What I did</h4>
+      <p>I shaped the narrative before filming and worked with the external production agency through post-production, reviewing footage and edits and specifying which sections to keep, remove and prioritise in the final story.</p>
+      <h4>Output</h4>
+      <p>A main customer film supported by shorter edits for social use.</p>
     `
   },
   founder: {
@@ -37,11 +37,11 @@ const cases = {
       <h4>Context</h4>
       <p>Data & AI Mastery is a Cambridge Spark podcast featuring founder and Group CEO Dr Raoul-Gabriel Urma in conversation with guests from the data and AI space.</p>
       <h4>My role</h4>
-      <p>I create the LinkedIn updates around podcast episodes for Raoul’s profile, using the conversation and episode themes as the source material.</p>
-      <h4>What changes from the company page</h4>
-      <p>The founder-led posts are written separately from Cambridge Spark’s company-page promotion. I adapt the angle and copy for Raoul’s profile rather than reusing the same company caption.</p>
-      <h4>Skills shown</h4>
-      <p>Founder-led content, executive voice adaptation, podcast repurposing and B2B LinkedIn copy.</p>
+      <p>I create the LinkedIn updates around podcast episodes for Raoul’s profile.</p>
+      <h4>What I did</h4>
+      <p>I use the episode themes and guest conversations as source material, then adapt the angle and copy for a founder profile rather than reusing Cambridge Spark’s company-page promotion.</p>
+      <h4>Output</h4>
+      <p>Founder-led LinkedIn posts built from podcast and expert content.</p>
     `
   },
   repurpose: {
@@ -49,14 +49,14 @@ const cases = {
     title: "Podcast conversation → LinkedIn carousel",
     link: "https://www.linkedin.com/feed/update/urn:li:activity:7528792040151744512",
     html: `
-      <h4>Source</h4>
-      <p>This carousel came from a podcast conversation between Dr Jeremy Bradley and Professor Alessandra Russo about AI systems, LLMs and the importance of rules and constraints in real-world decision processes.</p>
+      <h4>Context</h4>
+      <p>The source was a podcast conversation between Dr Jeremy Bradley and Professor Alessandra Russo about AI systems, LLMs and rules and constraints in real-world decision processes.</p>
       <h4>My role</h4>
-      <p>I reviewed the long-form conversation, selected a single idea that could work independently on social and structured it into a concise slide-by-slide narrative.</p>
-      <h4>Format</h4>
-      <p>The final output was a LinkedIn carousel designed to make a technical topic easier to scan without needing the audience to listen to the full podcast first.</p>
-      <h4>Skills shown</h4>
-      <p>Long-form to short-form repurposing, editorial judgement, B2B copywriting and carousel structure.</p>
+      <p>I turned the long-form conversation into a standalone social asset.</p>
+      <h4>What I did</h4>
+      <p>I reviewed the conversation, selected one central idea that could work independently on social and structured it into a concise slide-by-slide narrative.</p>
+      <h4>Output</h4>
+      <p>A LinkedIn carousel designed to make the technical topic easier to scan without requiring the audience to listen to the full podcast first.</p>
     `
   },
   newsletter: {
@@ -64,14 +64,14 @@ const cases = {
     title: "Cambridge Spark monthly LinkedIn newsletter",
     link: "https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7254837648303808512",
     html: `
-      <h4>What I own</h4>
-      <p>I plan and write Cambridge Spark’s monthly LinkedIn newsletter.</p>
-      <h4>Editorial work</h4>
-      <p>That includes setting the theme, choosing which stories and resources to include, writing and editing the copy, structuring the edition and coordinating it with wider marketing activity.</p>
-      <h4>Content mix</h4>
-      <p>Editions can bring together thought leadership, company updates, webinars, customer stories, practical resources and developments across data and AI.</p>
-      <h4>Skills shown</h4>
-      <p>Editorial planning, content curation, newsletter writing, B2B content strategy and lifecycle content.</p>
+      <h4>Context</h4>
+      <p>Cambridge Spark publishes a monthly LinkedIn newsletter covering the company’s wider data and AI content and activity.</p>
+      <h4>My role</h4>
+      <p>I plan and write the monthly edition.</p>
+      <h4>What I did</h4>
+      <p>I set the editorial theme, select the stories and resources, write and edit the copy, structure the edition and coordinate it with wider marketing activity.</p>
+      <h4>Output</h4>
+      <p>A recurring LinkedIn newsletter bringing together thought leadership, company updates, webinars, customer stories, practical resources and developments across data and AI.</p>
     `
   },
   eventvideo: {
@@ -82,11 +82,11 @@ const cases = {
       <h4>Context</h4>
       <p>Cambridge Spark’s Celebration of Achievement brought learners, customers and the wider community together at London Guildhall.</p>
       <h4>My role</h4>
-      <p>I used the event as a social-content opportunity, shaping professional short-form content for Cambridge Spark’s LinkedIn audience.</p>
-      <h4>Format</h4>
-      <p>The final content used event footage and a polished edit designed for a professional social channel rather than a traditional event recap.</p>
-      <h4>Skills shown</h4>
-      <p>Event storytelling, short-form video, social-first content planning and LinkedIn content.</p>
+      <p>I used the event as a social-content opportunity for Cambridge Spark’s LinkedIn audience.</p>
+      <h4>What I did</h4>
+      <p>I shaped the content concept around the event footage and the way the event should be presented on a professional social channel.</p>
+      <h4>Output</h4>
+      <p>A polished short-form LinkedIn video built from the in-person event.</p>
     `
   }
 };
