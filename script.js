@@ -12,6 +12,7 @@ const cases = {
       <p>My work included social content, email communications, web content, campaign messaging, event-related promotion and live content. I also created a 30-second promotional ad in Canva. When the original app-based activation was dropped because of HYROX data-security concerns, the campaign was adapted around a form-based prize draw for a HYROX PUMA bag.</p>
       <h4>Output</h4>
       <p>An integrated partnership campaign spanning social, email, web, event content, a promotional ad and the revised prize-draw activation.</p>
+      <p><a href="https://www.cambridgespark.com/ambition-amplified-hyrox" target="_blank" rel="noopener noreferrer">View the Ambition Amplified campaign website ↗</a></p>
     `
   },
   lloyds: {
@@ -97,9 +98,32 @@ document.querySelectorAll(".reveal").forEach(el=>revealObserver.observe(el));
 const metricSection=document.querySelector(".metrics");let counted=false;
 const metricObserver=new IntersectionObserver(([entry])=>{if(!entry.isIntersecting||counted)return;counted=true;document.querySelectorAll("[data-count]").forEach(node=>{const target=Number(node.dataset.count);const duration=1250;const start=performance.now();const tick=now=>{const progress=Math.min((now-start)/duration,1);const eased=1-Math.pow(1-progress,3);node.textContent=Math.floor(target*eased).toLocaleString();if(progress<1)requestAnimationFrame(tick)};requestAnimationFrame(tick)});metricObserver.disconnect()},{threshold:.35});if(metricSection)metricObserver.observe(metricSection);
 
-const modal=document.getElementById("case-modal"),modalTitle=document.getElementById("modal-title"),modalKicker=document.getElementById("modal-kicker"),modalContent=document.getElementById("modal-content"),modalLink=document.getElementById("modal-link");
-document.querySelectorAll("[data-open]").forEach(btn=>btn.addEventListener("click",()=>{const item=cases[btn.dataset.open];if(!item)return;modalTitle.textContent=item.title;modalKicker.textContent=item.kicker;modalContent.innerHTML=item.html;modalLink.href=item.link||"#";modalLink.style.display=item.link?"inline-flex":"none";modal.classList.add("open");modal.setAttribute("aria-hidden","false");document.body.style.overflow="hidden"}));
-function closeModal(){modal.classList.remove("open");modal.setAttribute("aria-hidden","true");document.body.style.overflow=""}
-document.querySelectorAll("[data-close]").forEach(el=>el.addEventListener("click",closeModal));document.addEventListener("keydown",e=>{if(e.key==="Escape")closeModal()});document.getElementById("year").textContent=new Date().getFullYear();
+const modal = document.getElementById("case-modal");
+const modalTitle = document.getElementById("modal-title");
+const modalKicker = document.getElementById("modal-kicker");
+const modalContent = document.getElementById("modal-content");
+const modalLink = document.getElementById("modal-link");
+const modalPanel = modal.querySelector(".modal-panel");
+
+document.querySelectorAll("[data-open]").forEach(button => {
+  button.addEventListener("click", () => {
+    const item = cases[button.dataset.open];
+    if (!item) return;
+
+    modalTitle.textContent = item.title;
+    modalKicker.textContent = item.kicker;
+    modalContent.innerHTML = item.html;
+    modalLink.href = item.link || "#";
+    modalLink.hidden = !item.link;
+    modal.showModal();
+    modalPanel.scrollTop = 0;
+  });
+});
+
+modal.querySelector(".modal-close").addEventListener("click", () => modal.close());
+modal.addEventListener("click", event => {
+  if (event.target === modal) modal.close();
+});
+document.getElementById("year").textContent = new Date().getFullYear();
 
 if(window.matchMedia("(pointer:fine)").matches){document.querySelectorAll(".project,.range-card,.strength-card").forEach(card=>{card.addEventListener("mousemove",e=>{const r=card.getBoundingClientRect();const x=(e.clientX-r.left)/r.width-.5;const y=(e.clientY-r.top)/r.height-.5;card.style.transform=`perspective(900px) rotateX(${-y*2}deg) rotateY(${x*2}deg) translateY(-5px)`});card.addEventListener("mouseleave",()=>card.style.transform="")})}

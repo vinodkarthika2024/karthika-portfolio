@@ -87,7 +87,7 @@
       <div class="account-grid">
         <article class="account-card account-card-business reveal">
           <div class="account-visual">
-            <img src="assets/linkedin-cover.svg" alt="Cambridge Spark LinkedIn account visual">
+            <img class="sample-image" src="assets/cambridge-spark-linkedin.jpg" alt="Cambridge Spark’s LinkedIn company page with its tenth anniversary banner">
             <span class="account-badge">Primary B2B channel</span>
           </div>
           <div class="account-body">
@@ -116,7 +116,7 @@
 
         <article class="account-card account-card-personal reveal">
           <div class="account-visual">
-            <img src="assets/instagram-cover.svg" alt="Personal Instagram creative content visual">
+            <img class="sample-image" src="assets/personal-instagram-grid.jpg" alt="Karthika’s Instagram grid showing travel, everyday life and short-form videos">
             <span class="account-badge">Personal creative project</span>
           </div>
           <div class="account-body">
@@ -152,7 +152,7 @@
 
       <div class="project-grid">
         <article class="project project-featured reveal" data-project="hyrox">
-          <div class="project-visual image-visual"><img class="project-image" src="assets/hyrox-cover.svg" alt="Cambridge Spark x HYROX partnership campaign cover"></div>
+          <div class="project-visual sample-visual"><img class="project-image sample-image" src="assets/hyrox-ambition-amplified.jpg" width="1655" height="472" alt="Ambition Amplified campaign landing page for the Cambridge Spark × HYROX partnership"></div>
           <div class="project-body">
             <div class="tags"><span>Partnership Marketing</span><span>Integrated Campaign</span><span>Live Event</span></div>
             <h3>Cambridge Spark × HYROX</h3>
@@ -167,7 +167,7 @@
         </article>
 
         <article class="project reveal" data-project="lloyds">
-          <div class="project-visual image-visual"><img class="project-image" src="assets/lloyds-cover.svg" alt="Lloyds Banking Group customer story cover"></div>
+          <div class="project-visual sample-visual"><img class="project-image sample-image" src="assets/lloyds-customer-film-still.jpg" alt="Lloyds Banking Group headquarters in London, as shown in the customer film"></div>
           <div class="project-body">
             <div class="tags"><span>Customer Story</span><span>Creative Direction</span><span>Video</span></div>
             <h3>Lloyds Banking Group customer film</h3>
@@ -182,7 +182,7 @@
         </article>
 
         <article class="project reveal" data-project="founder">
-          <div class="project-visual image-visual"><img class="project-image" src="assets/founder-cover.svg" alt="Data and AI Mastery founder-led content cover"></div>
+          <div class="project-visual sample-visual"><img class="project-image sample-image" src="assets/data-ai-mastery.jpg" alt="Data & AI Mastery podcast artwork featuring Raoul-Gabriel Urma and Ruth Buscombe"></div>
           <div class="project-body">
             <div class="tags"><span>Founder-led Content</span><span>LinkedIn</span><span>Podcast</span></div>
             <h3>Founder-led podcast content</h3>
@@ -197,7 +197,7 @@
         </article>
 
         <article class="project reveal" data-project="repurpose">
-          <div class="project-visual image-visual"><img class="project-image" src="assets/repurpose-cover.svg" alt="Podcast to LinkedIn carousel content repurposing cover"></div>
+          <div class="project-visual sample-visual"><img class="project-image sample-image" src="assets/inside-the-algorithm-carousel.jpg" alt="Inside the Algorithm carousel cover about guardrails in model decoding, featuring Alessandra Russo"></div>
           <div class="project-body">
             <div class="tags"><span>Repurposing</span><span>LinkedIn</span><span>Editorial</span></div>
             <h3>Podcast → LinkedIn carousel</h3>
@@ -212,7 +212,7 @@
         </article>
 
         <article class="project reveal" data-project="newsletter">
-          <div class="project-visual image-visual"><img class="project-image" src="assets/newsletter-cover.svg" alt="Cambridge Spark monthly newsletter cover"></div>
+          <div class="project-visual sample-visual"><img class="project-image sample-image" src="assets/cambridge-spark-newsletter.jpg" alt="Cambridge Spark’s monthly LinkedIn newsletter page"></div>
           <div class="project-body">
             <div class="tags"><span>Editorial</span><span>Newsletter</span><span>Lifecycle</span></div>
             <h3>Cambridge Spark monthly newsletter</h3>
@@ -227,7 +227,7 @@
         </article>
 
         <article class="project reveal" data-project="eventvideo">
-          <div class="project-visual image-visual"><img class="project-image" src="assets/event-video-cover.svg" alt="Professional B2B event video cover"></div>
+          <div class="project-visual sample-visual"><img class="project-image sample-image" src="assets/achievement-event-still.jpg" alt="A speaker addresses guests at Cambridge Spark’s Celebration of Achievement"></div>
           <div class="project-body">
             <div class="tags"><span>LinkedIn</span><span>Event Content</span><span>Video</span></div>
             <h3>B2B event storytelling</h3>
@@ -263,7 +263,7 @@
       </div>
       <div class="range-grid">
         <article class="range-card reveal">
-          <img class="range-image" src="assets/linkedin-cover.svg" alt="LinkedIn B2B content visual">
+          <img class="range-image sample-image" src="assets/achievement-event-still.jpg" alt="Audience and stage at Cambridge Spark’s Celebration of Achievement">
           <div class="range-copy">
             <div class="range-topline"><span>LinkedIn</span><span>Professional • B2B</span></div>
             <h3>Professional event content</h3>
@@ -272,7 +272,7 @@
           </div>
         </article>
         <article class="range-card reveal">
-          <img class="range-image" src="assets/instagram-cover.svg" alt="Instagram short-form content visual">
+          <img class="range-image sample-image" src="assets/instagram-reel-still.jpg" alt="Karthika’s This Is Fine Instagram reel with a 29.4K view count">
           <div class="range-copy">
             <div class="range-topline"><span>Instagram</span><span>Meme-led • Informative</span></div>
             <h3>Meme-style information reel</h3>
@@ -314,16 +314,15 @@
 
   <footer><span>© <span id="year"></span> Karthika Vinod</span><span>Social Media & Brand Marketing Portfolio</span></footer>
 
-  <div class="modal" id="case-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modal-title">
-    <div class="modal-backdrop" data-close></div>
-    <div class="modal-panel" role="document">
-      <button class="modal-close" type="button" aria-label="Close case study" data-close>×</button>
+  <dialog class="modal" id="case-modal" aria-labelledby="modal-title">
+    <div class="modal-panel">
+      <button class="modal-close" type="button" aria-label="Close case study" autofocus>×</button>
       <p class="eyebrow" id="modal-kicker"></p>
       <h2 id="modal-title"></h2>
       <div id="modal-content"></div>
       <a id="modal-link" class="button" href="#" target="_blank" rel="noreferrer">View the work ↗</a>
     </div>
-  </div>
+  </dialog>
 
   <script src="script.js"></script>
 </body>
